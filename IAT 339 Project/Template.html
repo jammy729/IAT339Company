@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Style Guide Template</title>
+
+  <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <h1>Style Guide Template</h1>
+
+  <p>A template you can use to start building out your own style guides with.</p>
+
+
+  <nav>
+
+    <p>
+      Go to:
+      <a href="#interactive_elements">Interactive Elements</a>,
+      <a href="#text_elements">Text Elements</a>,
+      <a href="#combined_elements">Combined Elements</a>,
+    </p>
+
+  </nav>
+
+
+
+  <!-- INTERACTIVE ELEMENTS SECTION // -->
+  <section id="interactive_elements">
+
+    <!-- Default Button styling section -->
+    <section>
+
+      <h2>Navigation Button</h2>
+
+      <h3>CSS selector:</h3>
+      <p>.button-nav</p>
+
+      <h3>Sample code:</h3>
+      <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+      <h3>Rendered element:</h3>
+      <a class="button" href="#">Default Button</a>
+
+    </section>
+
+    <section>
+      <h2>In-text link</h2>
+      <h3>CSS selector:</h3>
+      <p>.link</p>
+
+      <h3>Sample code:</h3>
+      <code>&lt;a href="#"&gt;This is a link&lt;/a&gt;</code>
+
+      <h3>Rendered element:</h3>
+      <a href="#" class="link">This is a link</a>
+    </section>
+
+    <section>
+      <h2>Submit/Reset Buttons</h2>
+      <h3>CSS selector:</h3>
+      <p>.sub-res</p>
+
+      <h3>Sample code:</h3>
+      <code>&lt;input type="submit" class="sub-res""&gt</code>
+      <code>&lt;input type="reset" class="sub-res""&gt</code>
+
+
+      <h3>Rendered element:</h3>
+      <input type="submit" class="sub-res">
+      <input type="reset" class="sub-res">
+    </section>
+
+    <section>
+      <h2>Text Input Field</h2>
+      <h3>CSS selector:</h3>
+      <p>.text-input</p>
+
+      <h3>Sample code:</h3>
+      <code>&lt;input type="text" id="input" placeholder="lorem ipsum" class="text-input"</code>
+
+      <h3>Rendered element:</h3>
+      <input type="text" id="input" placeholder="lorem ipsum" class="text-input">
+
+    </section>
+
+  </section>
+  <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+  <!-- TEXT ELEMENTS SECTION // -->
+  <section id="text_elements">
+
+    <section>
+      <h2>Heading</h2>
+      <h3>CSS selector:</h3>
+      <p>#h1, #h2, #h3, #h4</p>
+
+      <h3>Sample code:</h3>
+      <code>&lt;h1 id="h1"&gt;Heading 1&lt;/a&gt;</code>
+      <code>&lt;h2 id="h2"&gt;Heading 2&lt;/a&gt;</code>
+      <code>&lt;h3 id="h3"&gt;Heading 3&lt;/a&gt;</code>
+      <code>&lt;h4 id="h4"&gt;Heading 4&lt;/a&gt;</code>
+
+
+      <h3>Rendered element:</h3>
+      <h1 id="h1">Heading 1</h1>
+      <h2 id="h2">Heading 2</h2>
+      <h3 id="h3">Heading 3</h3>
+      <h4 id="h4">Heading 4</h4>
+    </section>
+
+    <section>
+      <h2>Paragraphs</h2>
+      <h3>CSS selector:</h3>
+      <p>.button-nav</p>
+
+      <h3>Sample code:</h3>
+      <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+      <h3>Rendered element:</h3>
+      <p id="para">This is a paragraph</p>
+    </section>
+
+    <section>
+      <h2>Bulleted Lists</h2>
+      <h3>CSS selector:</h3>
+      <p>.button-nav</p>
+
+      <h3>Sample code:</h3>
+      <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+      <h3>Rendered element:</h3>
+      <ul>
+        <li>asdf</li>
+        <li>qwer</li>
+        <li>zxcv</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Numbered Lists</h2>
+      <h3>CSS selector:</h3>
+      <p>.button-nav</p>
+
+      <h3>Sample code:</h3>
+      <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+      <h3>Rendered element:</h3>
+      <ol>
+        <li>asdf</li>
+        <li>asdf</li>
+        <li>asdf</li>
+      </ol>
+    </section>
+
+  </section>
+  <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+  <!-- COMBINED ELEMENTS SECTION // -->
+  <section id="combined_elements">
+
+    <section>
+      <h2>Main Navigation</h2>
+      <h3>CSS selector:</h3>
+      <p>.button-nav</p>
+
+      <h3>Sample code:</h3>
+      <code>&lt;a href="#"&gt;Our Shells&lt;/a&gt;</code>
+      <code>&lt;a href="#"&gt;Products&lt;/a&gt;</code>
+      <code>&lt;a href="#"&gt;Cart&lt;/a&gt;</code>
+
+      <h3>Rendered element:</h3>
+      <div class="topnav">
+        <a href="home.html">Our Shells</a>
+        <a href="lists.html">Product</a>
+        <a href="cart.html">Cart</a>
+      </div>
+
+    </section>
+
+    <section>
+      <h2>Product Listing</h2>
+      <h3>CSS selector:</h3>
+      <p>.row, column, each</p>
+
+      <h3>Sample code:</h3>
+      <code>&lt;a href="#"&gt;Our Shells&lt;/a&gt;</code>
+      <div class="row">
+        <div class="column">
+          <div class="each">
+            <img src="src/list.jpg" alt="product image">
+            <a href="#"><button>VIEW</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="content">
+      <div class="list-img">
+        <img src="src/product.jpeg">
+      </div>
+      <div class="list-info">
+        <div class="list-text">
+          <h1>Joy Con Shell Set</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima deserunt nobis, fugit consequatur
+            praesentium rerum ipsa molestiae cupiditate tenetur tempora dicta possimus quae cumque? Consequatur
+            non similique nihil ipsum soluta!</p>
+        </div>
+        <div class="list-cart">
+          <p>$78</p>
+          <a href="cart.html"><button class="btn">ADD TO CART</button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-2">
+              <div class="cart-items">
+                <!-- banner display -->
+                <div class="cart-main">
+                  <h4 id="cart-main">Your Cart (2 items)</h4>
+                </div>
+                <table class="listing">
+                  <!-- product listing -->
+                  <tr>
+                    <td>
+                      <div class="cart-info">
+                        <img src="src/list.jpg" alt="cart image" class="cart-image">
+                        <div>
+                          <p class="product-name">Nintendo Switch</p>
+                          <p class="sub-name">Item Description</p> <br>
+                          <p class="sub-name">Quantity: 1</p> <br>
+                          <p class="sub-name">SKU: 300459751</p> <br>
+                          <br>
+                          <div class="remove-edit">
+                            <button class="remove">REMOVE</button>
+                            <button class="edit">EDIT</button>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="price">$50.00</td>
+                  </tr>
+
+                </table>
+              </div>
+              <div class="total">
+                <table>
+                  <tr>
+                    <th>Product Name</th>
+                    <th>$22.00</th>
+                  </tr>
+                  <tr>
+                    <th>Product Name</th>
+                    <th>$22.00</th>
+                  </tr>
+                  <tr>
+                    <th>Sales Tax</th>
+                    <th>$4.50</th>
+                  </tr>
+                  <tr>
+                    <th>Shipping</th>
+                    <th>$10.00</th>
+                  </tr>
+
+                </table>
+
+              </div>
+              <div class="billing">
+                <a href="checkout.html"><button class="btn">CHECKOUT</button></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- // COMBINED ELEMENTS SECTION -->
+
+
+</body>
+
+</html>

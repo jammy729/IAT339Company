@@ -1,0 +1,93 @@
+.jumbotron {
+    width: 100%;
+    height: 300px;
+    background-image: url('../src/hello.png');
+    background-size: cover;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jumbotron img {
+    margin: -30px -0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.container {
+    padding: 0 0;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about_us {
+    margin-top: 0;
+    padding-top: 0%;
+    width: 100%;
+    text-align: left;
+    margin: auto;
+    background-color: #FFE7E7;
+}
+
+#about {
+    text-align: center;
+}
+
+.center-about {
+    margin: auto;
+    width: 60%;
+}
+
+.center-about p {
+    width: 100%;
+    margin: auto;
+}
+
+.bottom {
+    margin-top: 2rem;
+    background-color: white;
+    padding-bottom: 1rem;
+}
+
+.bottom-pic img {
+    padding-top: 2rem;
+    width: 40%;
+    display: block;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+.bottom a {
+    text-decoration: none;
+}
+.bottom button {
+    display: block;
+    margin: auto;
+    background-color: #61E5A5;
+    color: white;
+    border: none;
+    padding: 1rem 1rem;
+    width: 20%;
+    border-radius: 11px;
+    cursor: pointer;
+    font-size: 1rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn:hover {
+    background-color: #58d498;
+}
+
+@media screen and (max-width:820px){
+    .center-about {
+        width: 80%;
+    }
+
+    .bottom-pic img {
+        width: 60%;
+    }
+}
